@@ -9,6 +9,7 @@
     "nx": "16.5.0"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "libs/*"
   ]
 }
