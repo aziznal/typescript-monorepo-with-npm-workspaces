@@ -1,0 +1,14 @@
+{
+  "name": "typescript-monorepo-with-npm",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "nx": "16.5.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
