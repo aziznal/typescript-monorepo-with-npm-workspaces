@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "outDir": "../../dist/libs/api-interface",
+        "module": "es6",
+        "lib": ["es6"],
+        "declaration": true,
+        "declarationMap": true,
+        "target": "ES2021",
+        "sourceMap": true,
+        "skipLibCheck": true
+    }
+}
+
