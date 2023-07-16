@@ -97,6 +97,6 @@ echo ""
 echo "Typescript library $libname created successfully! 🚀"
 echo ""
 
-echo "💡 Run 'npm run build' to build the library once"
-echo "💡 Run 'npm run build:watch' to build the library on every change"
+echo "💡 Run 'npm run -w $libname build' to build the library once"
+echo "💡 Run 'npm run -w $libname build:watch' to build the library on every change"
 
