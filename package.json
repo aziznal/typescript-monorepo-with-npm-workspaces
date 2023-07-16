@@ -2,7 +2,9 @@
   "name": "typescript-monorepo-with-npm",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "create-lib": "./create-lib.sh"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
