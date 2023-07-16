@@ -31,19 +31,19 @@ cd "$path/$libname"
 # 2. create package.json
 echo "Creating package.json ..."
 echo '{
-"name": "'$libname'",
-"version": "1.0.0",
-"main": "dist/index.js",
-"types": "dist/*/**.d.ts",
-"scripts": {
-"build": "tsc",
-"build:watch": "tsc --watch"
-},
-"author": "",
-"license": "ISC",
-"devDependencies": {
-"typescript": "^5.1.6"
-}
+  "name": "'$libname'",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/*/**.d.ts",
+  "scripts": {
+  "build": "tsc",
+  "build:watch": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }' > package.json
 
 # 3. create tsconfig.json
