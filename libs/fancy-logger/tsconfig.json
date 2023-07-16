@@ -2,7 +2,7 @@
     "compilerOptions": {
         "moduleResolution": "node",
         "baseUrl": "./",
-        "outDir": "../../dist/libs/api-interface",
+        "outDir": "./dist",
         "module": "es6",
         "lib": ["es6"],
         "declaration": true,
